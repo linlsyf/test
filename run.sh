@@ -7,8 +7,8 @@ pid=`   ps -ef | grep  $jarname | grep   java | awk '{print $2}'   `
 echo this  $jarname
 echo pid=  $pid
 
-if  [-z $pid]; then
-    echo "$jarname   未运行"
+if  [ -z $pid ]; then
+  echo "$jarname   未运行"
 else 
      echo "准备关闭进程$pid"
 
