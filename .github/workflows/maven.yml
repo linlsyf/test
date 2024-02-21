@@ -44,7 +44,7 @@ jobs:
     
     - name: 测试访问删除
     #  run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} " curl  http://43.139.88.109:8083/testRemove?origdata=aabcccbbad "
-      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} " curl  http://43.139.88.109:8083/testRemove?origdata=aabcccbbad"
+      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} " curl  -v http://43.139.88.109:8083/testRemove?origdata=aabcccbbad"
 
     
     - name: 测试访问替换
