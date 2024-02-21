@@ -29,6 +29,10 @@ echo "开始重启服务... source /etc/profile;nohup java -jar /root/GitHub_Act
   source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar >temp.out &
 
 echo "启动服务完成 "
+
+echo "等待五秒再执行下个任务 "
+sleep 5
+
 exit 0
 
 #ps -ef | grep  eureka-server | grep   java | awk '{print $2}'
