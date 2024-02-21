@@ -15,7 +15,7 @@ import java.util.Map;
     @Autowired
 
     @GetMapping("/testRemove")
-    public void testRemove() {
+    public String testRemove() {
         String origdata="aabcccbbad";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REMOVE);
@@ -23,15 +23,18 @@ import java.util.Map;
 
         queryGrantTypeService.getResult(exeBean);
 
+          return "testRemove sucess";
     }
     @GetMapping("/testReplace")
-    public void testReplace() {
+    public String testReplace() {
         String origdata="abcccbad";
 //        String origdata="aabccccbbaddd";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REPLACE);
         exeBean.setOrigdata(origdata);
         queryGrantTypeService.getResult(exeBean);
+        return "testReplace sucess";
+
     }
 
 }
