@@ -43,7 +43,7 @@ jobs:
       run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} "cd /root/GitHub_Action && chmod +x run.sh && ./run.sh"
     
     - name: 测试访问删除
-      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} "curl  http://@${{secrets.REMOTE_IP}}:8083/testRemove"
+      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} "curl  http://127.0.0.1:8083/testRemove?origdata=aabcccbbad"
     - name: 测试访问替换
-      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} "curl  http://@${{secrets.REMOTE_IP}}:8083/testReplace"
+      run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} "curl http://127.0.0.1:8083/testReplace?origdata=abcccbad"
 
