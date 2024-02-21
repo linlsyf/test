@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import start.queryType.QueryGrantTypeService;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -14,24 +15,23 @@ import java.util.Map;
     QueryGrantTypeService queryGrantTypeService;
 
     @GetMapping  ("/testRemove")
-    public String testRemove(String origdata) {
+    public List<String> testRemove(String origdata) {
 //        String origdata="aabcccbbad";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REMOVE);
         exeBean.setOrigdata(origdata);
-        queryGrantTypeService.getResult(exeBean);
+        List<String> result= queryGrantTypeService.getResult(exeBean);
 
-          return "testRemove sucess";
+          return result;
     }
     @GetMapping("/testReplace")
-    public String testReplace(String origdata) {
-//        String origdata="abcccbad";
+    public  List<String> testReplace(String origdata) {
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REPLACE);
         exeBean.setOrigdata(origdata);
-        queryGrantTypeService.getResult(exeBean);
-        return "testReplace sucess";
+        List<String> result= queryGrantTypeService.getResult(exeBean);
 
+        return result;
     }
 
 }

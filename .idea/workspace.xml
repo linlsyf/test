@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/start/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/QueryGrantTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/start/queryType/QueryGrantTypeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +126,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestApplication" />
-        <item itemvalue="JUnit.TaskTest.testReplace" />
         <item itemvalue="JUnit.TaskTest.testRemove" />
+        <item itemvalue="JUnit.TaskTest.testReplace" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -151,5 +153,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

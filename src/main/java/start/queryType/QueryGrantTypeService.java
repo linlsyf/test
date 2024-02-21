@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import start.ExeBean;
 
 import javax.annotation.PostConstruct;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,20 +24,19 @@ public class QueryGrantTypeService {
         grantTypeMap.put(ExeBean.Type_REPLACE,resourceId->grantTypeSerive.replace(resourceId));
     }
 
-    public String getResult(ExeBean exeBean){
+    public  List<String> getResult(ExeBean exeBean){
 
         String resourceType=exeBean.getType();
         Function<String, List<String>> result=grantTypeMap.get(resourceType);
         String resourceId=exeBean.getOrigdata();
             //传入resourceId 执行这段表达式获得String型的grantType
-
+        List<String> resultList=new ArrayList<>();
         if(result!=null){
             //传入resourceId 执行这段表达式获得String型的grantType
-             result.apply(resourceId);
+          resultList=result.apply(resourceId);
 
-             return "";
         }
-        return "查询处理方式";
+        return resultList;
 
 
     }

@@ -11,22 +11,31 @@ public class GrantTypeSerive {
      String tempkey="";
      int tempcount=0;
 
+    List<String>   removeData=new ArrayList<>();
+
+
+    List<String>   replaceData=new ArrayList<>();
     //删除连续重复超过3次字母
     public    List<String> remove(String origdata){
+        //每次执行进行重置
+        removeData=new ArrayList<>();
+        removeData.add(origdata);
 
         String[] datanew= origdata.split("");
 
         List<String>   checkList=  Arrays.asList(datanew);
 
-        List<String> fllterdata= consum(checkList);
+        List<String> fllterdata= checkDuplikey(checkList);
 
-        List<String>   resultData=filterdata(checkList,fllterdata);
+        deleteData(checkList,fllterdata);
 
-         return resultData;
+         return removeData;
     }
 
     //替换连续重复超过3次字母
     public   List<String>  replace(String origdata){
+        replaceData=new ArrayList<>();
+        replaceData.add(origdata);
 
         List<String> chartall=getPronoc();
 
@@ -34,11 +43,11 @@ public class GrantTypeSerive {
 
         List<String>   checkList=  Arrays.asList(datanew);
 
-        List<String> fllterdata= consum(checkList);
+        List<String> fllterdata= checkDuplikey(checkList);
 
-        List<String>   data=replacedata(checkList,fllterdata,chartall);
+        replacedata(checkList,fllterdata,chartall);
 
-        return data;
+        return replaceData;
     }
 
 //获取26个字母
@@ -52,7 +61,7 @@ public class GrantTypeSerive {
 
     }
     //筛选出重复的字符 如连续出现两次a 则加入集合
-    public     List<String>  consum(    List<String>  datanew)  {
+    public     List<String> checkDuplikey(List<String>  datanew)  {
         List<String> list =  datanew.stream()
                 .collect(Collectors.toMap(Function.identity(), s -> {
                     int count=0;
@@ -73,18 +82,17 @@ public class GrantTypeSerive {
                 .entrySet()
                 // 继续转流
                 .stream()
-                // 筛选出现不超过3次的元素
+                // 筛选出现超过3次的元素
                 .filter(entry -> entry.getValue()>2)
                 // 获取key
                 .map(Map.Entry::getKey)
-                // 统计只出现一次的元素
                 .collect(Collectors.toList());
         return list;
 
     }
 
 
-    public     List<String> replacedata( List<String> datanew,List<String> dupliList, List<String> chartall){
+    public     void replacedata( List<String> datanew,List<String> dupliList, List<String> chartall){
 
         Map  hasChange=new HashMap();
         List<String>  newdatas=  datanew.stream()
@@ -119,21 +127,23 @@ public class GrantTypeSerive {
 
         System.out.println("");
         newdatas.stream() .forEach(System.out::print);
+
+        replaceData.add(newdatas.stream().map(Object::toString) // 将每个数字转换为字符串类型
+                .collect(Collectors.joining()));
         tempcount=0;
         tempkey="";
         //检测有没有超过3个的重复值
-        List<String>  duplikeyList=      consum(newdatas);
+        List<String>  duplikeyList=      checkDuplikey(newdatas);
 
         if (duplikeyList.size()>0){
-            newdatas= replacedata( newdatas,duplikeyList,chartall);
+            replacedata( newdatas,duplikeyList,chartall);
         }
 
-        return newdatas;
 
     }
 
     //保留筛选过后的
-    public    List<String>    filterdata( List<String>  datanew,List<String> list){
+    public   void   deleteData(List<String>  datanew, List<String> list){
         List<String>  newdatas=  datanew.stream()
                 .filter(s -> {
                             if (!list.contains(s)){
@@ -146,20 +156,23 @@ public class GrantTypeSerive {
                 ).collect(Collectors.toList())
                 ;
 
+
         System.out.println("");
         newdatas.stream() .forEach(System.out::print);
 
+        removeData.add(newdatas.stream().map(Object::toString) // 将每个数字转换为字符串类型
+                .collect(Collectors.joining()));
         tempcount=0;
         tempkey="";
         //不重复的值
-        List<String>  duplikeyList=      consum(newdatas);
+        List<String>  duplikeyList=      checkDuplikey(newdatas);
 
            if (duplikeyList.size()>0){
-               newdatas= filterdata( newdatas,duplikeyList);
-           }
-        return newdatas;
+             deleteData( newdatas,duplikeyList);
 
-//                .forEach(System.out::print);
+           }
+
+
     }
 
 }
