@@ -25,7 +25,7 @@ echo "已关闭进程$pid"
 echo "stop  end"
 
 
-echo "开始重启服务"
+echo "开始重启服务..."
 
   java -jar /root/GitHub_Action/test.jar &
 
