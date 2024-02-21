@@ -28,7 +28,6 @@ import java.util.Map;
     @GetMapping("/testReplace")
     public String testReplace(String origdata) {
 //        String origdata="abcccbad";
-//        String origdata="aabccccbbaddd";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REPLACE);
         exeBean.setOrigdata(origdata);
