@@ -16,7 +16,6 @@ import java.util.Map;
 
     @GetMapping("/testRemove")
     public void testRemove() {
-//        java.util.List<ServiceInstance> instances = client.getInstances("hello-service");
 
         String origdata="aabcccbbad";
 //        String origdata="aabccccbbaddd";
