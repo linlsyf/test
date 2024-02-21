@@ -18,7 +18,6 @@ import java.util.Map;
     public void testRemove() {
 
         String origdata="aabcccbbad";
-//        String origdata="aabccccbbaddd";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REMOVE);
         exeBean.setOrigdata(origdata);
