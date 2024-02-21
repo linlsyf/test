@@ -4,7 +4,7 @@
 
 jarname=test
 pid=`   ps -ef | grep  $jarname | grep   java | awk '{print $2}'   `
-echo this is test $jarname
+echo this  $jarname
 echo pid=  $pid
 
 if  [-z $pid]; then
@@ -27,7 +27,7 @@ echo "stop  end"
 
 echo "开始重启服务"
 
-java -jar /root/GitHub_Action/test.jar   &
+   java -jar /root/GitHub_Action/test.jar&
 
 echo "长期服务完成 "
 
