@@ -8,11 +8,8 @@ import java.util.stream.Collectors;
 
 @Service
 public class GrantTypeSerive {
-
      String tempkey="";
      int tempcount=0;
-
-    List<String>   resultData;
 
     //删除连续重复超过3次字母
     public    List<String> remove(String origdata){
@@ -25,7 +22,6 @@ public class GrantTypeSerive {
 
         List<String>   resultData=filterdata(checkList,fllterdata);
 
-
          return resultData;
     }
 
@@ -36,7 +32,6 @@ public class GrantTypeSerive {
 
         String[] datanew= origdata.split("");
 
-
         List<String>   checkList=  Arrays.asList(datanew);
 
         List<String> fllterdata= consum(checkList);
@@ -44,24 +39,20 @@ public class GrantTypeSerive {
         List<String>   data=replacedata(checkList,fllterdata,chartall);
 
         return data;
-
     }
 
 //获取26个字母
     public    List<String>  getPronoc()  {
-
         List<String> result=new ArrayList();
         for(int i = 1;i<=26;i++){
             String name = String.valueOf((char)(96+i)).toLowerCase();
             result.add(name);
         }
-
         return   result;
 
     }
     //筛选出重复的字符 如连续出现两次a 则加入集合
     public     List<String>  consum(    List<String>  datanew)  {
-
         List<String> list =  datanew.stream()
                 .collect(Collectors.toMap(Function.identity(), s -> {
                     int count=0;

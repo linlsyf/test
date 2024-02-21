@@ -1,5 +1,7 @@
-TaskTest 执行测试
+test  文件夹下 TaskTest 执行测试
 
+
+main文件夹下测试代码
   testRemove 方法测试移除重复值
   testReplace   方法测试替换重复值
 
