@@ -16,7 +16,6 @@ import java.util.Map;
 
     @GetMapping("/testRemove")
     public void testRemove() {
-
         String origdata="aabcccbbad";
         ExeBean  exeBean=new ExeBean();
         exeBean.setType(ExeBean.Type_REMOVE);
