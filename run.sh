@@ -33,7 +33,6 @@ echo "开始重启服务..."
 
 echo "长期服务完成 "
 
-
 #ps -ef | grep  eureka-server | grep   java | awk '{print $2}'
 #  killall   eureka-server   lsof -i:
 
