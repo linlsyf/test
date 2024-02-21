@@ -26,7 +26,6 @@ echo "stop  end"
 
 
 echo "开始重启服务..."
-
   source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar&
 
 echo "长期服务完成 "
