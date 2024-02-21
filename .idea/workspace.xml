@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/start/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +53,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\test" />
       <recent name="G:\test - 副本" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="start" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaskTest.testRemove">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn  package spring-boot:repackage " />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TaskTest.testReplace">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.MainTest" />
       <module name="test" />
@@ -99,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskTest.testReplace" />
         <item itemvalue="JUnit.TaskTest.testRemove" />
         <item itemvalue="Application.MainTest" />
-        <item itemvalue="JUnit.TaskTest.testReplace" />
       </list>
     </recent_temporary>
   </component>
