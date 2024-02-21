@@ -25,8 +25,8 @@ echo "已关闭进程$pid"
 echo "stop  end"
 
 
-echo "开始重启服务... source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar&"
-  source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar&
+echo "开始重启服务... source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar >temp.txt &"
+  source /etc/profile;nohup java -jar /root/GitHub_Action/test.jar >temp.txt &
 
 echo "长期服务完成 "
 exit 0
