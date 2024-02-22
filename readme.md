@@ -1,3 +1,8 @@
+
+
+[![codecov](https://codecov.io/gh/linlsyf/test/graph/badge.svg?token=TGB3H8KEN5)](https://codecov.io/gh/linlsyf/test)
+
+
 --java
       start  源码
 --test
@@ -22,7 +27,3 @@ main文件夹下测试代码
 
 
 java -jar test.jar CharactersMainTest  aabcccbbadd  abcccbadd
-
-=========覆盖率========
-[![codecov](https://codecov.io/gh/linlsyf/test/graph/badge.svg?token=TGB3H8KEN5)](https://codecov.io/gh/linlsyf/test)
-
