@@ -5,13 +5,21 @@ public class CharactersMainTest {
 
         CharactersService queryGrantTypeService=new CharactersService();
         queryGrantTypeService.dispatcherInit();
-
+        String removeData="";
+        String replaceData="";
+        if (args.length>1){
+            removeData=args[0];
+            replaceData=args[1];
+//            removeData="aabcccbbad";
+//            replaceData="abcccbad";
+        }else{
+            return ;
+        }
         //测试删除
-        String origdata="aabcccbbad";
 //        String origdata="aabccccbbaddd";
         RequestData exeBean=new RequestData();
         exeBean.setType(RequestData.Type_REMOVE);
-        exeBean.setOrigdata(origdata);
+        exeBean.setOrigdata(removeData);
         System.out.println("");
 
         System.out.println("========测试删除=======");
@@ -20,11 +28,10 @@ public class CharactersMainTest {
 
 
      System.out.println("========测试替换=======");
-         origdata="abcccbad";
 //        String origdata="aabccccbbaddd";
          exeBean=new RequestData();
         exeBean.setType(RequestData.Type_REPLACE);
-        exeBean.setOrigdata(origdata);
+        exeBean.setOrigdata(replaceData);
         queryGrantTypeService.getResult(exeBean);
     }
 }
