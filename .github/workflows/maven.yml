@@ -50,4 +50,8 @@ jobs:
     
     - name: 测试访问替换
       run: sshpass -p ${{secrets.REMOTE_PWD}} ssh -o StrictHostKeyChecking=no root@${{secrets.REMOTE_IP}} " curl http://43.139.88.109:8083/testReplace?origdata=abcccbad "
-
+    - name: 使用Codecov测试覆盖率 
+      uses: codecov/codecov-action@v4.0.1
+      with:
+         token: ${{ secrets.CODECOV_TOKEN }}
+         slug: linlsyf/test
