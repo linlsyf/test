@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/ExeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RequestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/QueryGrantTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/start/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +53,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "G:/test"
+    "last_opened_file_path": "G:/test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,6 +64,12 @@
       <recent name="G:\test" />
       <recent name="G:\test\src" />
       <recent name="G:\test - 副本" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="start" />
@@ -67,7 +86,7 @@
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +99,7 @@
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +111,12 @@
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="start" />
-      <option name="MAIN_CLASS_NAME" value="start.TaskTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
       <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,12 +127,12 @@
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="start" />
-      <option name="MAIN_CLASS_NAME" value="start.TaskTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
       <option name="METHOD_NAME" value="testReplace" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -155,7 +174,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java</url>
           <line>132</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>

@@ -1,30 +1,21 @@
-package start.queryType;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import start.ExeBean;
-
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-@Service
-public class QueryGrantTypeService {
+public class CharactersService {
 
-    @Autowired
-    private GrantTypeSerive grantTypeSerive;
+    private CharactersBussinessSerive grantTypeSerive;
     private Map<String, Function<String, List<String>>> grantTypeMap=new HashMap<>();
 
-    @PostConstruct
     public void dispatcherInit(){
-        grantTypeMap.put(ExeBean.Type_REMOVE,resourceId->grantTypeSerive.remove(resourceId));
-        grantTypeMap.put(ExeBean.Type_REPLACE,resourceId->grantTypeSerive.replace(resourceId));
+        grantTypeSerive=new CharactersBussinessSerive();
+        grantTypeMap.put(RequestData.Type_REMOVE, resourceId->grantTypeSerive.remove(resourceId));
+        grantTypeMap.put(RequestData.Type_REPLACE, resourceId->grantTypeSerive.replace(resourceId));
     }
 
-    public  List<String> getResult(ExeBean exeBean){
+    public  List<String> getResult(RequestData exeBean){
 
         String resourceType=exeBean.getType();
         Function<String, List<String>> result=grantTypeMap.get(resourceType);

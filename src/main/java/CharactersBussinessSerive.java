@@ -1,24 +1,19 @@
-package start.queryType;
-
-import org.springframework.stereotype.Service;
-
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-@Service
-public class GrantTypeSerive {
+public class CharactersBussinessSerive {
      String tempkey="";
      int tempcount=0;
 
-    List<String>   removeData=new ArrayList<>();
+    List<String>   removeData=new ArrayList<String>();
 
 
-    List<String>   replaceData=new ArrayList<>();
+    List<String>   replaceData=new ArrayList<String>();
     //删除连续重复超过3次字母
     public    List<String> remove(String origdata){
         //每次执行进行重置
-        removeData=new ArrayList<>();
+        removeData=new ArrayList<String>();
         removeData.add(origdata);
 
         String[] datanew= origdata.split("");
@@ -34,7 +29,7 @@ public class GrantTypeSerive {
 
     //替换连续重复超过3次字母
     public   List<String>  replace(String origdata){
-        replaceData=new ArrayList<>();
+        replaceData=new ArrayList<String>();
         replaceData.add(origdata);
 
         List<String> chartall=getPronoc();
