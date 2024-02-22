@@ -1,28 +1,25 @@
-package service;
+package service.impl;
+
+import service.CalculateStrategy;
+import utils.DuplikeyCheckUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CalculatorRemove implements CalculateStrategy{
-
+public class CalculatorRemove implements CalculateStrategy {
     List<String>   removeData=new ArrayList<String>();
-
-    DuplikeyCheck duplikey=new DuplikeyCheck();
+    DuplikeyCheckUtils duplikeyCheckUtils =new DuplikeyCheckUtils();
     @Override
     public List<String> doOperation(String requestData) {
         removeData=new ArrayList<String>();
         removeData.add(requestData);
 
         String[] datanew= requestData.split("");
-
         List<String>   checkList=  Arrays.asList(datanew);
-
-        List<String> fllterdata= DuplikeyCheck.checkDuplikey(checkList);
-
+        List<String> fllterdata= duplikeyCheckUtils.checkDuplikey(checkList);
         deleteData(checkList,fllterdata);
-
         return removeData;
     }
 
@@ -35,26 +32,17 @@ public class CalculatorRemove implements CalculateStrategy{
                             }else{
                                 return false;
                             }
-
                         }
-                ).collect(Collectors.toList())
-                ;
-
-
-//        System.out.println("");
-//        newdatas.stream() .forEach(System.out::print);
+                ).collect(Collectors.toList()) ;
 
         removeData.add(newdatas.stream().map(Object::toString) // 将每个数字转换为字符串类型
                 .collect(Collectors.joining()));
-        duplikey.resetTemp();
+        duplikeyCheckUtils.resetTemp();
         //不重复的值
-        List<String>  duplikeyList=      duplikey.checkDuplikey(newdatas);
-
+        List<String>  duplikeyList=      duplikeyCheckUtils.checkDuplikey(newdatas);
         if (duplikeyList.size()>0){
             deleteData( newdatas,duplikeyList);
-
         }
-
 
     }
 

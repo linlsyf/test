@@ -1,21 +1,20 @@
-package service;
+package utils;
 
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class DuplikeyCheck {
-    static String tempkey="";
-    static  int tempcount=0;
-
+public class DuplikeyCheckUtils {
+     String tempkey="";
+      int tempcount=0;
     public  void resetTemp()  {
         tempcount=0;
         tempkey="";
     }
 
         //筛选出重复的字符 如连续出现两次a 则加入集合
-    public static List<String> checkDuplikey(List<String>  datanew)  {
+    public  List<String> checkDuplikey(List<String>  datanew)  {
         List<String> list =  datanew.stream()
                 .collect(Collectors.toMap(Function.identity(), s -> {
                     int count=0;
@@ -42,7 +41,6 @@ public class DuplikeyCheck {
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toList());
         return list;
-
     }
 
 }

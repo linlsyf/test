@@ -1,8 +1,7 @@
+import constants.CalculatorType;
 import service.CalculatorContext;
-import service.CalculatorRemove;
-import service.CalculatorReplace;
-import service.Constants;
-import domain.RequestData;
+import service.impl.CalculatorRemove;
+import service.impl.CalculatorReplace;
 
 import java.util.List;
 
@@ -27,7 +26,7 @@ public class CharactersMainTest {
 
         System.out.println("========测试删除=======");
 
-        CalculatorContext context=new CalculatorContext(new CalculatorRemove());
+        CalculatorContext context=new CalculatorContext(CalculatorType.Type_REMOVE);
 
 
         List<String> deleteResult=  context.execute(removeData);
@@ -36,7 +35,7 @@ public class CharactersMainTest {
 
 
      System.out.println("========测试替换=======");
-         context=new CalculatorContext(new CalculatorReplace());
+         context=new CalculatorContext(CalculatorType.Type_REPLACE);
 
         //测试删除
         String origdata="aabcccbbad";

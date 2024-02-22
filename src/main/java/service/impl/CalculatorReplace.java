@@ -1,18 +1,22 @@
-package service;
+package service.impl;
+
+import service.CalculateStrategy;
+import utils.DuplikeyCheckUtils;
+import utils.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class CalculatorReplace implements CalculateStrategy{
+public class CalculatorReplace implements CalculateStrategy {
     List<String>   replaceData=new ArrayList<String>();
-    DuplikeyCheck duplikey=new DuplikeyCheck();
+    DuplikeyCheckUtils duplikey=new DuplikeyCheckUtils();
 
     @Override
     public List<String> doOperation(String requestData) {
         replaceData=new ArrayList<String>();
         replaceData.add(requestData);
 
-        List<String> chartall=getPronoc();
+        List<String> chartall= StringUtils.getPronoc();
 
         String[] datanew= requestData.split("");
 
@@ -74,13 +78,5 @@ public class CalculatorReplace implements CalculateStrategy{
 
     }
 
-    public    List<String>  getPronoc()  {
-        List<String> result=new ArrayList();
-        for(int i = 1;i<=26;i++){
-            String name = String.valueOf((char)(96+i)).toLowerCase();
-            result.add(name);
-        }
-        return   result;
 
-    }
 }

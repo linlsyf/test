@@ -10,17 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/DuplikeyCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CharactersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/RequestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculatorRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculatorReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/CalculatorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DuplikeyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DuplikeyCheckUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,22 +92,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TaskTest.testReplace">
-    <configuration name="CharactersMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharactersMainTest" />
+    <configuration name="TaskTest.testRandomStringRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.TestApplication" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
+      <option name="METHOD_NAME" value="testRandomStringRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +144,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskTest.testReplaceRadom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
+      <option name="METHOD_NAME" value="testReplaceRadom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TaskTest.testReplace" />
         <item itemvalue="JUnit.TaskTest.testRemove" />
+        <item itemvalue="JUnit.TaskTest.testReplaceRadom" />
+        <item itemvalue="JUnit.TaskTest.testRandomStringRemove" />
         <item itemvalue="JUnit.TaskTest.testRemove2" />
-        <item itemvalue="Application.CharactersMainTest" />
-        <item itemvalue="Application.TestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +193,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java</url>
           <line>132</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
