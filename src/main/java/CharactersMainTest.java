@@ -10,10 +10,11 @@ public class CharactersMainTest {
         if (args.length>1){
             removeData=args[0];
             replaceData=args[1];
-//            removeData="aabcccbbad";
-//            replaceData="abcccbad";
-        }else{
-            return ;
+
+        }
+        else{
+              removeData="aabcccbbad";
+            replaceData="abcccbad";
         }
         //测试删除
 //        String origdata="aabccccbbaddd";
