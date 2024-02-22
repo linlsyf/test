@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="test:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/test_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/ExeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RequestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/TestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/GrantTypeSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/queryType/QueryGrantTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/start/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "G:/test",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "G:/test/target",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,7 +80,14 @@
       <command value="mvn  package spring-boot:repackage " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestApplication">
+  <component name="RunManager" selected="Application.CharactersMainTest">
+    <configuration name="CharactersMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharactersMainTest" />
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.MainTest" />
       <module name="test" />
@@ -141,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharactersMainTest" />
         <item itemvalue="Application.TestApplication" />
         <item itemvalue="JUnit.TaskTest.testRemove" />
         <item itemvalue="JUnit.TaskTest.testReplace" />

@@ -36,16 +36,27 @@
 
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <configuration>-->
-<!--&lt;!&ndash;                        <mainClass>start.TestApplication</mainClass>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <layout>JAR</layout>&ndash;&gt;-->
-<!--                    &lt;!&ndash;配置为执行&ndash;&gt;-->
-
-<!--                    <outputDirectory>${target}</outputDirectory>-->
-<!--                </configuration>-->
-
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>CharactersMainTest</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>assembly</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
