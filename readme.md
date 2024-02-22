@@ -26,6 +26,3 @@ java -jar test.jar CharactersMainTest  aabcccbbadd  abcccbadd
 =========覆盖率========
 [![codecov](https://codecov.io/gh/linlsyf/test/graph/badge.svg?token=TGB3H8KEN5)](https://codecov.io/gh/linlsyf/test)
 
-<a href="https://codecov.io/gh/linlsyf/test" >
- <img src="https://codecov.io/gh/linlsyf/test/graph/badge.svg?token=TGB3H8KEN5"/>
- </a>
