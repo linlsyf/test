@@ -120,8 +120,8 @@ public class CharactersBussinessSerive {
                 .collect(Collectors.toList());
 
 
-        System.out.println("");
-        newdatas.stream() .forEach(System.out::print);
+//        System.out.println("");
+//        newdatas.stream() .forEach(System.out::print);
 
         replaceData.add(newdatas.stream().map(Object::toString) // 将每个数字转换为字符串类型
                 .collect(Collectors.joining()));
@@ -152,8 +152,8 @@ public class CharactersBussinessSerive {
                 ;
 
 
-        System.out.println("");
-        newdatas.stream() .forEach(System.out::print);
+//        System.out.println("");
+//        newdatas.stream() .forEach(System.out::print);
 
         removeData.add(newdatas.stream().map(Object::toString) // 将每个数字转换为字符串类型
                 .collect(Collectors.joining()));

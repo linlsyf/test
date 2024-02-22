@@ -22,6 +22,14 @@ public class TaskTest {
        queryGrantTypeService.getResult(exeBean);
 
 
+//     System.out.println("====测试第二个数据");
+//
+//        origdata="aadddeeefffzzzuuu";
+//        exeBean.setOrigdata(origdata);
+//
+//        queryGrantTypeService.getResult(exeBean);
+
+
     }
     @Test
     public void testReplace() throws Exception {

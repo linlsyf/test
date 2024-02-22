@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class CharactersMainTest {
 
     public static void main(String[] args) {
@@ -21,11 +23,12 @@ public class CharactersMainTest {
         RequestData exeBean=new RequestData();
         exeBean.setType(RequestData.Type_REMOVE);
         exeBean.setOrigdata(removeData);
-        System.out.println("");
 
         System.out.println("========测试删除=======");
 
-        queryGrantTypeService.getResult(exeBean);
+        List<String> deleteResult= queryGrantTypeService.getResult(exeBean);
+
+            deleteResult.stream().forEach(System.out::println);
 
 
      System.out.println("========测试替换=======");
@@ -33,6 +36,8 @@ public class CharactersMainTest {
          exeBean=new RequestData();
         exeBean.setType(RequestData.Type_REPLACE);
         exeBean.setOrigdata(replaceData);
-        queryGrantTypeService.getResult(exeBean);
+        List<String> replaceResult= queryGrantTypeService.getResult(exeBean);
+        replaceResult.stream().forEach(System.out::println);
+
     }
 }
