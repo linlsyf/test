@@ -24,4 +24,4 @@ main文件夹下测试代码
 java -jar test.jar CharactersMainTest  aabcccbbadd  abcccbadd
 
 =========覆盖率========
-  [![codecov](https://codecov.io/gh/<linlsyf>/<test>/branch/master/graph/badge.svg)](https://codecov.io/gh/<linlsyf>/<test>)
+[![codecov](https://codecov.io/gh/linlsyf/test/graph/badge.svg?token=TGB3H8KEN5)](https://codecov.io/gh/linlsyf/test)
