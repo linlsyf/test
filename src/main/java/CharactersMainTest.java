@@ -1,3 +1,7 @@
+import service.Constants;
+import domain.RequestData;
+import service.CharactersService;
+
 import java.util.List;
 
 public class CharactersMainTest {
@@ -21,7 +25,7 @@ public class CharactersMainTest {
         //测试删除
 //        String origdata="aabccccbbaddd";
         RequestData exeBean=new RequestData();
-        exeBean.setType(RequestData.Type_REMOVE);
+        exeBean.setType(Constants.Type_REMOVE);
         exeBean.setOrigdata(removeData);
 
         System.out.println("========测试删除=======");
@@ -34,7 +38,7 @@ public class CharactersMainTest {
      System.out.println("========测试替换=======");
 //        String origdata="aabccccbbaddd";
          exeBean=new RequestData();
-        exeBean.setType(RequestData.Type_REPLACE);
+        exeBean.setType(Constants.Type_REPLACE);
         exeBean.setOrigdata(replaceData);
         List<String> replaceResult= queryGrantTypeService.getResult(exeBean);
         replaceResult.stream().forEach(System.out::println);

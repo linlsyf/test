@@ -1,6 +1,7 @@
+package domain;
+
 public class RequestData {
-    public static final String Type_REMOVE="remove";
-    public static final String Type_REPLACE="replace";
+
     String origdata;
     String type;
 

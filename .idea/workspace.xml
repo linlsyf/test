@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CharactersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CharactersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/RequestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2cd1GivXzP7pFDhv197D48el0lK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +85,7 @@
       <command value="mvn  package spring-boot:repackage " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharactersMainTest">
+  <component name="RunManager" selected="JUnit.TaskTest.testRemove">
     <configuration name="CharactersMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharactersMainTest" />
       <module name="test" />
@@ -147,10 +153,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharactersMainTest" />
         <item itemvalue="JUnit.TaskTest.testRemove" />
-        <item itemvalue="Application.TestApplication" />
         <item itemvalue="JUnit.TaskTest.testReplace" />
+        <item itemvalue="Application.CharactersMainTest" />
+        <item itemvalue="Application.TestApplication" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -181,7 +187,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java</url>
           <line>132</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>

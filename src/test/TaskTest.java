@@ -1,4 +1,9 @@
+import service.Constants;
+import domain.RequestData;
 import org.junit.Test;
+import service.CharactersService;
+
+import java.util.List;
 
 
 /**
@@ -16,18 +21,22 @@ public class TaskTest {
         String origdata="aabcccbbad";
 //        String origdata="aabccccbbaddd";
         RequestData exeBean=new RequestData();
-        exeBean.setType(RequestData.Type_REMOVE);
+        exeBean.setType(Constants.Type_REMOVE);
          exeBean.setOrigdata(origdata);
 
-       queryGrantTypeService.getResult(exeBean);
+        List<String> deleteResult= queryGrantTypeService.getResult(exeBean);
+
+        deleteResult.stream().forEach(System.out::println);
 
 
-//     System.out.println("====测试第二个数据");
+     System.out.println("====测试第二个数据");
+
+        origdata="aadddeeefffzzzuuu";
+        exeBean.setOrigdata(origdata);
 //
-//        origdata="aadddeeefffzzzuuu";
-//        exeBean.setOrigdata(origdata);
-//
-//        queryGrantTypeService.getResult(exeBean);
+        deleteResult= queryGrantTypeService.getResult(exeBean);
+
+        deleteResult.stream().forEach(System.out::println);
 
 
     }
@@ -39,9 +48,11 @@ public class TaskTest {
         String origdata="abcccbad";
 //        String origdata="aabccccbbaddd";
         RequestData exeBean=new RequestData();
-        exeBean.setType(RequestData.Type_REPLACE);
+        exeBean.setType(Constants.Type_REPLACE);
         exeBean.setOrigdata(origdata);
-        queryGrantTypeService.getResult(exeBean);
+        List<String> deleteResult= queryGrantTypeService.getResult(exeBean);
+
+        deleteResult.stream().forEach(System.out::println);
     }
 
 

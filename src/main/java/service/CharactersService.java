@@ -1,3 +1,7 @@
+package service;
+
+import domain.RequestData;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -11,8 +15,8 @@ public class CharactersService {
 
     public void dispatcherInit(){
         grantTypeSerive=new CharactersBussinessSerive();
-        grantTypeMap.put(RequestData.Type_REMOVE, resourceId->grantTypeSerive.remove(resourceId));
-        grantTypeMap.put(RequestData.Type_REPLACE, resourceId->grantTypeSerive.replace(resourceId));
+        grantTypeMap.put(Constants.Type_REMOVE, resourceId->grantTypeSerive.remove(resourceId));
+        grantTypeMap.put(Constants.Type_REPLACE, resourceId->grantTypeSerive.replace(resourceId));
     }
 
     public  List<String> getResult(RequestData exeBean){

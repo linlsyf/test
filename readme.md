@@ -15,9 +15,9 @@ main文件夹下测试代码
   testRemove 方法测试移除重复值
   testReplace   方法测试替换重复值
 
-  CharactersBussinessSerive 类具体实现筛选和打印
+  service.CharactersBussinessSerive 类具体实现筛选和打印
 
-  RequestData 定义类型和参数对象
+  domain.RequestData 定义类型和参数对象
 
   ======代码地址=========
   https://github.com/linlsyf/test
