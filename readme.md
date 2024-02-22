@@ -8,7 +8,7 @@
 --test
       TaskTest 执行测试
 
--run.sh 执行文件
+-run.sh 执行部署运行文件
 
 
 main文件夹下测试代码
@@ -26,4 +26,3 @@ main文件夹下测试代码
   java -jar test.jar CharactersMainTest  aabcccbbad  abcccbad
 
 
-java -jar test.jar CharactersMainTest  aabcccbbadd  abcccbadd

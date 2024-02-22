@@ -10,13 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/DuplikeyCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CharactersBussinessSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharactersMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CharactersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CharactersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/RequestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CharactersBussinessSerive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CharactersService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "G:/test/target",
+    "last_opened_file_path": "G:/test",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -77,6 +81,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service" />
       <recent name="start" />
     </key>
   </component>
@@ -85,23 +90,10 @@
       <command value="mvn  package spring-boot:repackage " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaskTest.testRemove">
+  <component name="RunManager" selected="JUnit.TaskTest.testReplace">
     <configuration name="CharactersMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharactersMainTest" />
       <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.MainTest" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskTest.testRemove2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
+      <option name="METHOD_NAME" value="testRemove2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskTest.testReplace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskTest.testRemove" />
         <item itemvalue="JUnit.TaskTest.testReplace" />
+        <item itemvalue="JUnit.TaskTest.testRemove" />
+        <item itemvalue="JUnit.TaskTest.testRemove2" />
         <item itemvalue="Application.CharactersMainTest" />
         <item itemvalue="Application.TestApplication" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
