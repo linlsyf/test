@@ -5,6 +5,7 @@
 
 
 ===========文件目录 file directory=======
+--coverage      覆盖率
 --java
       CalculateStrategy   Policy execution interface 策略执行接口
 --test
