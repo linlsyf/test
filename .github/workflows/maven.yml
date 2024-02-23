@@ -54,15 +54,12 @@ jobs:
 #         token: ${{ secrets.CODECOV_TOKEN }}
 #         slug: linlsyf/test
 
-#    - name: 上传覆盖率 coverage reports to Codecov
-#      run: |
-#                 # Replace `linux` below with the appropriate OS
-#                 # Options are `alpine`, `linux`, `macos`, `windows`
-#                 curl -Os https://uploader.codecov.io/latest/linux/codecov
-#                 chmod +x codecov
-#                 ./codecov -t ${CODECOV_TOKEN}
+    - name: 上传覆盖率 coverage reports to Codecov
+      run: |
+                 # Replace `linux` below with the appropriate OS
+                 # Options are `alpine`, `linux`, `macos`, `windows`
+                 curl -Os https://uploader.codecov.io/latest/linux/codecov
+                 chmod +x codecov
+                 ./codecov -t ${CODECOV_TOKEN}
 
-    - name: 使用Codecov测试覆盖率
-      uses: codecov/codecov-action@v4-beta
-      env:
-         CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
+
