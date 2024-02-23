@@ -1,15 +1,7 @@
 import org.junit.Assert;
 import service.*;
 import org.junit.Test;
-import service.impl.CalculatorRemove;
-import service.impl.CalculatorReplace;
-import utils.StringUtils;
-
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.UUID;
-
 
 /**
 
