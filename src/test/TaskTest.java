@@ -1,4 +1,3 @@
-import constants.CalculatorType;
 import org.junit.Assert;
 import service.*;
 import org.junit.Test;
@@ -19,8 +18,13 @@ public class TaskTest {
 
     //实际处理不同逻辑实现类
     @Test
+    public void testAll() throws Exception {
+       testRemove();
+       testReplace();
+    }
+    @Test
     public void testRemove() throws Exception {
-        CalculatorContext context=new CalculatorContext(CalculatorType.Type_REMOVE);
+        CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REMOVE);
         //测试删除
         String origdata="aabcccbbad";
 
@@ -47,7 +51,7 @@ public class TaskTest {
 
         String  testdata= "aaeeeeebcccbbddaswerad";
 
-        CalculatorContext context=new CalculatorContext(CalculatorType.Type_REMOVE);
+        CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REMOVE);
         //测试删除
         String origdata=testdata;
 
@@ -59,7 +63,7 @@ public class TaskTest {
 
     @Test
     public void testReplace() throws Exception {
-        CalculatorContext context=new CalculatorContext(CalculatorType.Type_REPLACE);
+        CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REPLACE);
         //测试删除
         String origdata="aabcccbbad";
 
@@ -83,7 +87,7 @@ public class TaskTest {
     }
     @Test
     public void testReplaceRadom() throws Exception {
-        CalculatorContext context=new CalculatorContext(CalculatorType.Type_REPLACE);
+        CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REPLACE);
         //测试删除
         String origdata="aabcccbbadwwwwerwerewyuifyuyu";
 
