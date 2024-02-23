@@ -16,7 +16,7 @@ import java.util.UUID;
  **/
 public class TaskTest {
 
-    //实际处理不同逻辑实现类
+    //生成测试报告
     @Test
     public void testAll() throws Exception {
        testRemove();
