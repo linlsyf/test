@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <command value="mvn  package spring-boot:repackage " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaskTest.testReplace">
+  <component name="RunManager" selected="JUnit.TaskTest.testRandomStringRemove">
     <configuration name="TaskTest.testRandomStringRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskTest.testReplace" />
-        <item itemvalue="JUnit.TaskTest.testRemove" />
-        <item itemvalue="JUnit.TaskTest.testReplaceRadom" />
         <item itemvalue="JUnit.TaskTest.testRandomStringRemove" />
+        <item itemvalue="JUnit.TaskTest.testRemove" />
+        <item itemvalue="JUnit.TaskTest.testReplace" />
+        <item itemvalue="JUnit.TaskTest.testReplaceRadom" />
         <item itemvalue="JUnit.TaskTest.testRemove2" />
       </list>
     </recent_temporary>
@@ -186,12 +185,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
-          <line>40</line>
+          <line>39</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>

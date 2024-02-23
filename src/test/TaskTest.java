@@ -1,5 +1,4 @@
 import constants.CalculatorType;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Assert;
 import service.*;
 import org.junit.Test;
