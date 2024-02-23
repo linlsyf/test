@@ -37,7 +37,7 @@ public class CalculatorContext {
         return strategy.doOperation(requestData);
     }
 
-    public static void main(String[] args) {
-        
-    }
+//    public static void main(String[] args) {
+//
+//    }
 }
