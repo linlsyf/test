@@ -29,12 +29,15 @@ public class TaskTest {
         deleteResult.stream().forEach(System.out::println);
 
 
-        Assert.assertTrue("判断最后结果是否全部删除",deleteResult.size()>1);
+        Assert.assertTrue("Determine whether all final results have been deleted\n" +
+                "\n判断最后结果是否全部删除",deleteResult.size()>1);
 
-        Assert.assertTrue("判断最后结果是否4次打印",deleteResult.size()==4);
+        Assert.assertTrue("Determine if the final result is printed 4 times\n" +
+                "\n 判断最后结果是否4次打印",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue("判断最后打印字符是d",lastWord.equals("d"));
+        Assert.assertTrue("Determine if the last printed character is d\n" +
+                "\n判断最后打印字符是d",lastWord.equals("d"));
 
 
 
@@ -65,14 +68,17 @@ public class TaskTest {
 
         deleteResult.stream().forEach(System.out::println);
 
-        
 
-        Assert.assertTrue("判断最后结果是否全部删除",deleteResult.size()>1);
 
-        Assert.assertTrue("判断最后结果是否4次打印",deleteResult.size()==4);
+        Assert.assertTrue("Determine whether all final results have been deleted\n" +
+                "\n判断最后结果是否全部删除",deleteResult.size()>1);
+
+        Assert.assertTrue("Determine if the final result is printed 4 times\n" +
+                "\n 判断最后结果是否4次打印",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue("判断最后打印字符是d",lastWord.equals("d"));
+        Assert.assertTrue("Determine if the last printed character is d\n" +
+                "\n判断最后打印字符是d",lastWord.equals("d"));
 
 
     }
