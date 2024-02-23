@@ -4,29 +4,39 @@
 
 
 
-===========文件目录=======
+===========文件目录 file directory=======
 --java
-      CalculateStrategy  策略执行接口
+      CalculateStrategy   Policy execution interface 策略执行接口
 --test
-      TaskTest 执行测试
+      TaskTest          Perform testing 执行测试
 
--run.sh 执行部署运行文件
-
-==========核心代码===========
-
-CalculatorContext 根据不同传入类型 执行不同的策略
-
-testRemove 方法测试移除重复值
-  testReplace   方法测试替换重复值
-
-impl 文件夹下 定义不同类具体实现筛选和打印
+-run.sh 执行部署运行文件Execute deployment and run files
 
 
 
-  ======代码地址=========
+==========核心代码 Core code===========
+
+CalculatorContext 根据不同传入类型 执行不同的策略 Execute different policies according to different incoming types
+
+
+
+testRemove 方法测试移除重复值  Method testing to remove duplicate values
+
+
+  testReplace   方法测试替换重复值 Method testing replaces duplicate values
+
+
+
+impl 文件夹下 定义不同类具体实现筛选和打印  Define different classes to implement filtering and printing
+
+
+
+
+
+  ======代码地址code address=========
   https://github.com/linlsyf/test
 
-  =====其他===
+  =====其他 other===
   java -jar test.jar CharactersMainTest  aabcccbbad  abcccbad
 
 
