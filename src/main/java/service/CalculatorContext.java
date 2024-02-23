@@ -36,4 +36,8 @@ public class CalculatorContext {
     public List<String> execute(String requestData) {
         return strategy.doOperation(requestData);
     }
+
+    public static void main(String[] args) {
+        
+    }
 }

@@ -10,56 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/sources/source-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-1/sources/source-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/sources/source-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-2/sources/source-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/sources/source-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/ns-3/sources/source-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
