@@ -30,8 +30,8 @@ echo "开始重启服务... source /etc/profile;nohup java -jar /root/GitHub_Act
 
 echo "启动服务完成 "
 
-echo "等待五秒再执行下个任务 "
-sleep 5
+#echo "等待五秒再执行下个任务 "
+#sleep 5
 
 exit 0
 
