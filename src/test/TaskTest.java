@@ -29,12 +29,12 @@ public class TaskTest {
         deleteResult.stream().forEach(System.out::println);
 
 
-        Assert.assertTrue(deleteResult.size()>1);
+        Assert.assertTrue("判断最后结果是否全部删除",deleteResult.size()>1);
 
-        Assert.assertTrue(deleteResult.size()==4);
+        Assert.assertTrue("判断最后结果是否4次打印",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue(lastWord.equals("d"));
+        Assert.assertTrue("判断最后打印字符是d",lastWord.equals("d"));
 
 
 
@@ -65,12 +65,16 @@ public class TaskTest {
 
         deleteResult.stream().forEach(System.out::println);
 
-        Assert.assertTrue(deleteResult.size()>1);
+        
 
-        Assert.assertTrue(deleteResult.size()==4);
+        Assert.assertTrue("判断最后结果是否全部删除",deleteResult.size()>1);
+
+        Assert.assertTrue("判断最后结果是否4次打印",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue(lastWord.equals("d"));
+        Assert.assertTrue("判断最后打印字符是d",lastWord.equals("d"));
+
+
     }
     @Test
     public void testReplaceRadom() throws Exception {
