@@ -2,6 +2,7 @@ package service.impl;
 
 import service.CalculateStrategy;
 import utils.DuplikeyCheckUtils;
+import utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,6 +16,9 @@ public class CalculatorRemove implements CalculateStrategy {
     @Override
     public List<String> doOperation(String requestData) {
         removeData=new ArrayList<String>();
+        if (null==requestData||requestData.trim().length()==0){
+            return removeData;
+        }
         removeData.add(requestData);
         String[] datanew= requestData.split("");
         List<String>   checkList=  Arrays.asList(datanew);

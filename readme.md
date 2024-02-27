@@ -9,7 +9,7 @@
 --java
       CalculateStrategy   Policy execution interface 策略执行接口
 --test
-      TaskTest          Perform testing 执行测试
+      CalculatorContextTest          Perform testing 执行测试
 
 -run.sh 执行部署运行文件Execute deployment and run files
 

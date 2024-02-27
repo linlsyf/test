@@ -10,69 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46bd153-e7fb-45df-9d44-d3b6aa2e39b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/CalculatorRemoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CalculatorReplaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DuplikeyCheckUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StringUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/css/coverage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/css/idea.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/img/arrowDown.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/img/arrowUp.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/js/highlight.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/js/highlightjs-line-numbers.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/sources/source-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-1/sources/source-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/sources/source-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-2/sources/source-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/sources/source-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/ns-3/sources/source-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculateStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculatorContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorRemove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CalculatorReplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DuplikeyCheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DuplikeyCheckUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CalculatorContextTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,64 +95,52 @@
       <command value="mvn clean verify " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaskTest.test">
-    <configuration name="TaskTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuplikeyCheckUtilsTest.testEmptyletters">
+    <configuration name="CalculatorContextTest.testReplaceRadom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorContextTest" />
+      <option name="METHOD_NAME" value="testReplaceRadom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplikeyCheckUtilsTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest" />
-      <option name="METHOD_NAME" value="testAll" />
+      <option name="MAIN_CLASS_NAME" value="DuplikeyCheckUtilsTest" />
+      <option name="METHOD_NAME" value="execute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.testRandomStringRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplikeyCheckUtilsTest.testEmptyletters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest" />
-      <option name="METHOD_NAME" value="testRandomStringRemove" />
+      <option name="MAIN_CLASS_NAME" value="DuplikeyCheckUtilsTest" />
+      <option name="METHOD_NAME" value="testEmptyletters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplikeyCheckUtilsTest.testManyletters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="MAIN_CLASS_NAME" value="DuplikeyCheckUtilsTest" />
+      <option name="METHOD_NAME" value="testManyletters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.testReplace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilsTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest" />
-      <option name="METHOD_NAME" value="testReplace" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilsTest" />
+      <option name="METHOD_NAME" value="execute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskTest.test" />
-        <item itemvalue="JUnit.TaskTest.testAll" />
-        <item itemvalue="JUnit.TaskTest.testRandomStringRemove" />
-        <item itemvalue="JUnit.TaskTest.testRemove" />
-        <item itemvalue="JUnit.TaskTest.testReplace" />
+        <item itemvalue="JUnit.DuplikeyCheckUtilsTest.testEmptyletters" />
+        <item itemvalue="JUnit.StringUtilsTest.execute" />
+        <item itemvalue="JUnit.DuplikeyCheckUtilsTest.testManyletters" />
+        <item itemvalue="JUnit.DuplikeyCheckUtilsTest.execute" />
+        <item itemvalue="JUnit.CalculatorContextTest.testReplaceRadom" />
       </list>
     </recent_temporary>
   </component>
@@ -253,14 +187,64 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/test/CalculatorContextTest.java</url>
+          <line>34</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/TaskTest.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/test/CalculatorContextTest.java</url>
+          <line>32</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/CalculatorContext.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/DuplikeyCheckUtilsTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorReplaceTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorReplaceTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/DuplikeyCheckUtilsTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorRemoveTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorRemoveTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/impl/CalculatorRemove.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorRemoveTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/CalculatorReplaceTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

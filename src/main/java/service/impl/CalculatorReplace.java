@@ -10,11 +10,14 @@ import java.util.stream.Collectors;
 public class CalculatorReplace implements CalculateStrategy {
     /**The result after replacement*/
     List<String>   replaceData=new ArrayList<String>();
-    DuplikeyCheckUtils duplikey=new DuplikeyCheckUtils();
+    DuplikeyCheckUtils duplikeyCheckUtils =new DuplikeyCheckUtils();
 
     @Override
     public List<String> doOperation(String requestData) {
         replaceData=new ArrayList<String>();
+        if (null==requestData||requestData.trim().length()==0){
+            return replaceData;
+        }
         replaceData.add(requestData);
 
         List<String> chartall= StringUtils.getPronoc();
@@ -23,7 +26,7 @@ public class CalculatorReplace implements CalculateStrategy {
 
         List<String>   checkList=  Arrays.asList(datanew);
 
-        List<String> fllterdata= duplikey.checkDuplikey(checkList);
+        List<String> fllterdata= duplikeyCheckUtils.checkDuplikey(checkList);
         replacedata(checkList,fllterdata,chartall);
 
         return replaceData;
@@ -61,9 +64,9 @@ public class CalculatorReplace implements CalculateStrategy {
 
         replaceData.add(newdatas.stream().map(Object::toString)
                 .collect(Collectors.joining()));
-        duplikey.resetTemp();
+        duplikeyCheckUtils.resetTemp();
         //Check for more than 3 duplicate values
-        List<String>  duplikeyList=duplikey.checkDuplikey(newdatas);
+        List<String>  duplikeyList= duplikeyCheckUtils.checkDuplikey(newdatas);
         if (duplikeyList.size()>0){
             replacedata( newdatas,duplikeyList,chartall);
         }
