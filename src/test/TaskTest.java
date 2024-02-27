@@ -8,7 +8,14 @@ import java.util.List;
  **/
 public class TaskTest {
 
-    //生成测试报告
+    @Test
+    public void test() throws Exception {
+
+
+
+//       testRemove();
+//       testReplace();
+    }
     @Test
     public void testAll() throws Exception {
        testRemove();
@@ -24,15 +31,12 @@ public class TaskTest {
         deleteResult.stream().forEach(System.out::println);
 
 
-        Assert.assertTrue("Determine whether all final results have been deleted\n" +
-                "\n判断最后结果是否全部删除",deleteResult.size()>1);
+        Assert.assertTrue("Determine whether all final results have been deleted",deleteResult.size()>1);
 
-        Assert.assertTrue("Determine if the final result is printed 4 times\n" +
-                "\n 判断最后结果是否4次打印",deleteResult.size()==4);
+        Assert.assertTrue("Determine if the final result is printed 4 times",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue("Determine if the last printed character is d\n" +
-                "\n判断最后打印字符是d",lastWord.equals("d"));
+        Assert.assertTrue("Determine if the last printed character is d",lastWord.equals("d"));
 
 
 
@@ -44,7 +48,6 @@ public class TaskTest {
         String  testdata= "aaeeeeebcccbbddaswerad";
 
         CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REMOVE);
-        //测试删除
         String origdata=testdata;
 
         List<String> deleteResult=  context.execute(origdata);
@@ -56,7 +59,6 @@ public class TaskTest {
     @Test
     public void testReplace() throws Exception {
         CalculatorContext context=new CalculatorContext(CalculatorContext.Type_REPLACE);
-        //测试删除
         String origdata="aabcccbbad";
 
         List<String> deleteResult=  context.execute(origdata);
@@ -65,15 +67,12 @@ public class TaskTest {
 
 
 
-        Assert.assertTrue("Determine whether all final results have been deleted\n" +
-                "\n判断最后结果是否全部删除",deleteResult.size()>1);
+        Assert.assertTrue("Determine whether all final results have been deleted",deleteResult.size()>1);
 
-        Assert.assertTrue("Determine if the final result is printed 4 times\n" +
-                "\n 判断最后结果是否4次打印",deleteResult.size()==4);
+        Assert.assertTrue("Determine if the final result is printed 4 times",deleteResult.size()==4);
 
         String lastWord=deleteResult.get(deleteResult.size()-1);
-        Assert.assertTrue("Determine if the last printed character is d\n" +
-                "\n判断最后打印字符是d",lastWord.equals("d"));
+        Assert.assertTrue("Determine if the last printed character is d",lastWord.equals("d"));
 
 
     }

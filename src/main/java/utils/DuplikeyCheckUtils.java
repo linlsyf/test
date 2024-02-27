@@ -6,21 +6,15 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class DuplikeyCheckUtils {
-    /**Record the previous character to determine if it is duplicated
-
-     记录上一个字符用于判断是否重复*/
+    /**Record the previous character to determine if it is duplicated*/
     String tempkey="";
-    /**Record the number of repetitions of the previous character
-
-     记录上一个字符重复次数*/
+    /**Record the number of repetitions of the previous character*/
       int tempcount=0;
     public  void resetTemp()  {
         tempcount=0;
         tempkey="";
     }
-
         //Filter out duplicate characters. If a appears twice in a row, add it to the set
-        // 筛选出重复的字符 如连续出现两次a 则加入集合
     public  List<String> checkDuplikey(List<String>  datanew)  {
         List<String> list =  datanew.stream()
                 .collect(Collectors.toMap(Function.identity(), s -> {
@@ -41,7 +35,6 @@ public class DuplikeyCheckUtils {
                 .entrySet()
                 .stream()
                 // Filter elements that appear more than 3 times
-                // 筛选出现超过3次的元素
                 .filter(entry -> entry.getValue()>2)
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toList());

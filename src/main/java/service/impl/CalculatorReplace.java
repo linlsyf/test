@@ -8,9 +8,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class CalculatorReplace implements CalculateStrategy {
-    /**The result after replacement
-
-     替换后的结果*/
+    /**The result after replacement*/
     List<String>   replaceData=new ArrayList<String>();
     DuplikeyCheckUtils duplikey=new DuplikeyCheckUtils();
 
@@ -26,7 +24,6 @@ public class CalculatorReplace implements CalculateStrategy {
         List<String>   checkList=  Arrays.asList(datanew);
 
         List<String> fllterdata= duplikey.checkDuplikey(checkList);
-        //执行替换
         replacedata(checkList,fllterdata,chartall);
 
         return replaceData;
@@ -45,7 +42,6 @@ public class CalculatorReplace implements CalculateStrategy {
                                 int index =chartall.indexOf(str);
                                 if (index>0&&!hasChange.containsKey(str)){
                                     //If the duplicate value is not a and is the first one, replace it with the previous letter
-                                    // 重复值如果是非a 且为第一个 替换为上一个字母
                                     hasChange.put(str,str);
                                     return chartall.get(index-1);
                                 }else{
@@ -57,7 +53,6 @@ public class CalculatorReplace implements CalculateStrategy {
                 .filter(s-> {
                     if ("".equals(s)) {
                         //Filter out A and non first duplicate values
-                        // 筛选掉A和非第一个重复值
                         return false;
                     }
                     return true;
@@ -68,7 +63,6 @@ public class CalculatorReplace implements CalculateStrategy {
                 .collect(Collectors.joining()));
         duplikey.resetTemp();
         //Check for more than 3 duplicate values
-        // 检测有没有超过3个的重复值
         List<String>  duplikeyList=duplikey.checkDuplikey(newdatas);
         if (duplikeyList.size()>0){
             replacedata( newdatas,duplikeyList,chartall);
